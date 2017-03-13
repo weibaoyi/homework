@@ -4,7 +4,8 @@
 * tr {
   width: 100%; }
   * tr td {
-    text-align: center; }
+    text-align: center;
+    font-size: 14px; }
 
 .navbar {
   margin-bottom: 0px !important; }
@@ -26,7 +27,8 @@
 
 .search {
   height: 86px;
-  line-height: 86px; }
+  line-height: 86px;
+  color: #0097cf; }
   .search input {
     height: 40px;
     margin-left: 15px;
@@ -83,6 +85,69 @@
           right: -7px;
           top: -7px;
           font-size: 10px; }
+
+.editor {
+  width: 430px;
+  height: 190px;
+  border: 1px solid #e6e6e6;
+  margin-left: 10px;
+  background: #fcfcfe;
+  border-radius: 5px; }
+  .editor h3 {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 15px;
+    border-bottom: 1px solid #cccccc;
+    color: #0097cf;
+    cursor: pointer; }
+  .editor div {
+    height: 150px;
+    overflow-y: auto; }
+    .editor div .add {
+      position: relative;
+      margin-left: 10px;
+      line-height: 35px;
+      cursor: pointer;
+      border: 1px solid #0097cf;
+      color: #0097cf; }
+      .editor div .add i {
+        position: absolute;
+        left: 6px;
+        top: 7px;
+        width: 20px;
+        height: 20px;
+        background: #ffffff;
+        border: 1px solid #0097cf;
+        color: #0097cf;
+        display: block; }
+    .editor div span {
+      width: 90px;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      display: inline-block;
+      border: 1px solid #cccccc;
+      font-size: 14px;
+      margin-left: 8px;
+      margin-top: 8px;
+      border-radius: 5px;
+      position: relative; }
+      .editor div span i {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: #f6ac00;
+        color: #ffffff;
+        padding: 2px;
+        border-radius: 100%;
+        right: -8px;
+        top: -8px; }
+    .editor div #txt {
+      width: 90px;
+      height: 35px;
+      line-height: 35px;
+      margin-left: 10px;
+      margin-top: 8px; }
 
 .link {
   -webkit-box-flex: 2;
